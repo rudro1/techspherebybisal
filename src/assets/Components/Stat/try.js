@@ -1,0 +1,190 @@
+
+let data=[
+  {
+    "product_id": 1,
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "/image/15pro.jpg",
+    "category": "iPhone",
+    "price": 1399,
+    "description": "The latest iPhone 15 Pro Max with A17 Pro chip, titanium body, and advanced camera system.",
+    "specification": [
+      "6.7-inch Super Retina XDR Display",
+      "A17 Pro Chip",
+      "48MP Main Camera",
+      "USB-C Fast Charging"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 2,
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "/image/s24s.webp",
+    "category": "Smartphone",
+    "price": 1299,
+    "description": "Flagship Android smartphone with AI-powered camera and ultra-smooth display.",
+    "specification": [
+      "6.8-inch AMOLED 120Hz Display",
+      "Snapdragon 8 Gen 3",
+      "200MP Camera",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Samsung"
+  },
+  {
+    "product_id": 3,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "/image/AppleWatchSeries9.jpg",
+    "price": 499,
+      "category": "Smartphone",
+    "description": "Next-generation Apple Watch with health monitoring and brighter display.",
+    "specification": [
+      "Always-On Retina Display",
+      "Blood Oxygen & ECG App",
+      "Crash Detection",
+      "18-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 4,
+    "product_title": "MacBook Air M3",
+    "product_image": "/image/MacBookAirM3.jpeg",
+    "category": "MacBook",
+    "price": 1599,
+    "description": "Ultra-thin and lightweight laptop powered by Apple’s M3 chip.",
+    "specification": [
+      "13.6-inch Liquid Retina Display",
+      "Apple M3 Chip",
+      "18-hour Battery Life",
+      "MagSafe 3 Charging"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 5,
+    "product_title": "Dell XPS 15",
+    "product_image": "/image/Dell15.jpeg",
+    "category": "Laptop",
+    "price": 1799,
+    "description": "Premium Windows laptop with stunning display and performance.",
+    "specification": [
+      "15.6-inch OLED 4K Display",
+      "Intel Core i7 13th Gen",
+      "NVIDIA RTX 4060",
+      "16GB RAM + 1TB SSD"
+    ],
+    "availability": false,
+    "rating": 4.6,
+    "brand": "Dell"
+  },
+  {
+    "product_id": 6,
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "/image/Logitech.jpg",
+    "category": "Accessories",
+    "price": 129,
+    "description": "Ergonomic wireless mouse with ultra-fast scrolling and customizable buttons.",
+    "specification": [
+      "MagSpeed Scrolling",
+      "Silent Clicks",
+      "USB-C Charging",
+      "Up to 70 Days Battery"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Logitech"
+  },
+  
+  {
+    "product_id": 7,
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://images.samsung.com/is/image/samsung/p6pim/levant/2401/gallery/levant-galaxy-s24-ultra-sm-s928-491734-sm-s928bztdmea-538290731?$650_519_PNG$",
+    "category": "Android",
+    "price": 1299,
+    "description": "Flagship Android smartphone with AI-powered camera and ultra-smooth display.",
+    "specification": [
+      "6.8-inch AMOLED 120Hz Display",
+      "Snapdragon 8 Gen 3",
+      "200MP Camera",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Samsung"
+  },
+  {
+    "product_id": 8,
+    "product_title": "OnePlus 12 Pro",
+    "product_image": "https://image01.oneplus.net/ebp/202312/14/1-m00-4d-47-cpgm7wfwc9gafj9jaaq7nrr5jpc845.png",
+    "category": "Android",
+    "price": 1099,
+    "description": "High-performance Android phone with smooth 120Hz display.",
+    "specification": [
+      "6.7-inch AMOLED Display",
+      "Snapdragon 8 Gen 3",
+      "50MP + 48MP Cameras",
+      "4800mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "OnePlus"
+  },
+  {
+    "product_id": 9,
+    "product_title": "MacBook Pro M3",
+    "product_image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-m3-pro-spaceblack-202310?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1697311095549",
+    "category": "Laptop",
+    "price": 1999,
+    "description": "Powerful MacBook with Apple’s new M3 chip.",
+    "specification": [
+      "14-inch Liquid Retina Display",
+      "Apple M3 Chip",
+      "20-hour Battery Life",
+      "MagSafe 3 Charging"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 10,
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-top-view-graphite.png",
+    "category": "Accessories",
+    "price": 129,
+    "description": "Ergonomic wireless mouse with ultra-fast scrolling and customizable buttons.",
+    "specification": [
+      "MagSpeed Scrolling",
+      "Silent Clicks",
+      "USB-C Charging",
+      "Up to 70 Days Battery"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Logitech"
+  }
+
+
+]
+
+
+
+
+data=data.map((entry)=>(
+
+{
+  value:entry.price,
+  label:entry.product_title,
+  id:entry.product_id
+}
+
+))
+export default data;

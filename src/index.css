@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;1,700&family=Exo:ital,wght@0,600;1,600&family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&family=Lexend:wght@100..900&family=Mulish:wght@600&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark ;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+   font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+.active{
+  background-color: rgb(59 130 246);
+  color: white;
+}
